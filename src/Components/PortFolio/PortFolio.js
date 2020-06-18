@@ -21,7 +21,7 @@ class PortFolio extends React.Component {
                         <section className="website-flex-container">
                             <div className="laptop-frame">
                                 <div>
-                                    <iframe width="460" height="315" src={item.url} frameborder="0" allowfullscreen>.</iframe>
+                                    <iframe title="My Websites" width="460" height="315" src={item.url} frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div className="websiteInfo">
@@ -29,10 +29,10 @@ class PortFolio extends React.Component {
                                     <h2>{item.title}</h2>
                                     <p>{item.description}</p>
                                     <div className="gitHubBtn-div">
-                                    <a href={item.gitHub} target="_blank" className="gitHubBtn">GitHub <i className="fa fa-github"></i></a>
+                                    <a href={item.gitHub} target="_blank" rel="noopener noreferrer" className="gitHubBtn">GitHub <i className="fa fa-github"></i></a>
                                     </div>
                                     <div className="zoom-div">
-                                    <a href={item.url} target="_blank" className="btn">{item.visitButton}</a>
+                                    <a href={item.url} target="_blank" rel="noopener noreferrer" className="btn">{item.visitButton}</a>
                                     </div>
                                 </div>
                             </div>
