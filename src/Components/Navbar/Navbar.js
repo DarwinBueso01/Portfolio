@@ -1,8 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import "../Navbar/Navbar.css";
-import Home from "../Home/HomeInfo/Home";
-import Portfolio from "../PortFolio/PortFolio";
-import Contact from "../Contact/Contact";
 
 class Navbar extends React.Component{
     render() {

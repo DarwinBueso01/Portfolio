@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import "../PortFolio/PortFolio.css";
 import WebsiteInfo from "../PortFolio/PortFolio.json";
-import { Link } from "react-router-dom";
 
 
 class PortFolio extends React.Component {
@@ -22,7 +21,7 @@ class PortFolio extends React.Component {
                         <section className="website-flex-container">
                             <div className="laptop-frame">
                                 <div>
-                                    <iframe width="460" height="315" src={item.url} frameborder="0" allowfullscreen></iframe>
+                                    <iframe width="460" height="315" src={item.url} frameborder="0" allowfullscreen>.</iframe>
                                 </div>
                             </div>
                             <div className="websiteInfo">

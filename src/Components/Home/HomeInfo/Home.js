@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../HomeInfo/Home.css";
 
 class HomeInfo extends React.Component {
