@@ -1,0 +1,132 @@
+/* General */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    list-style-type: none;
+}
+
+/* Home Information Styling */
+.mySection{
+    display: flex;
+    flex-direction: row;
+}
+
+.myPhoto{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../img/IMG_8512.JPG') no-repeat;
+    background-size: cover;
+    width: 555px;
+    height: 350px;
+    margin: 50px 50px 50px 160px;
+    border: solid #092b3b 10px; 
+}
+
+.myInfo{
+    width: 1000px;
+    text-align: start;
+    padding: 100px 100px 100px 100px;
+    border: solid #457475 5px;
+    margin: 150px 150px 150px 150px;
+    border-radius: 30px;
+}
+
+.fa{
+    font-size: 60px;
+    color: #092b3b;
+}
+
+h1{
+    font-size: 50px;
+    color: #457475;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+    padding: 150px 100px 100px 100px;
+    color: white;
+    background: linear-gradient(to right, #457475, #092b3b, #051d29);
+}
+
+.icons-container div{
+    width: 400px;
+}
+
+.icons-container i{
+    font-size: 30px;
+    background: #5a9595;
+    color: white;
+    border-radius: 50%;
+    padding: 30px 30px 30px 30px;
+}
+
+.icons-container p{
+    padding-top: 50px;
+}
+
+.pictureSection{
+    padding: 80px 80px 10px 40px;
+}
+
+/* Photo Gallery Design */
+
+.photoGallery{
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px 100px 150px;
+  }
+  
+  .effect-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .photos{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    opacity: 1;
+    display: block;
+    transition: transform .2s; /* Animation */
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+    -ms-transform: translate(-55%, -55%);
+    text-align: center;
+  }
+  
+  .effect-container:hover .photos {
+    opacity: 0.3;
+    transform: scale(1.2);
+  }
+  
+  .effect-container:hover .middle {
+    opacity: 1.4;
+  }
+  
+  .text {
+    color: black;
+    font-size: 40px;
+    padding: 16px 10px;
+    font-weight: bold;
+  }
+
+
+
+

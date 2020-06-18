@@ -1,0 +1,178 @@
+/* General */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.portFolio{
+    background: #d8d8d8;
+    color: white;
+    padding-top: 30px;
+}
+
+.PortFolioHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px 200px 200px 200px;
+    margin-bottom: 30px;
+}
+
+.title-container{
+    transition: transform .2s; /* Animation */
+    height: 140px;
+    /* border: solid black; */
+    
+}
+
+.title-container:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.title{
+    color: #051d29;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px; 
+    font-size: 40px;
+    border: solid #457475;
+    width: 450px;
+    font-weight: bold;
+}
+
+.title:hover{
+    background: #457475;
+    color: white;
+}
+
+.imageContainer{
+    background: url("https://pngimg.com/uploads/macbook/macbook_PNG35.png") no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+}
+
+
+/* Laptop design section */
+
+.website-flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border-bottom: solid #457475 1px; */
+}
+
+.laptop-frame {
+    width: 100%;
+    height: 100%;
+    max-width: 734px;
+    max-height: 243px;
+    margin: 50px 140px 350px 80px;
+}
+
+.laptop-frame div {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+}
+.laptop-frame div iframe {
+    box-sizing: border-box;
+    background: url("../../img/laptop-frame.png") center center no-repeat;
+    background-size: contain;
+    padding: 12.1% 14.4% 16.7%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.websiteInfo{
+    text-align: start;
+    padding-top: 20%;
+    width: 350px;
+}
+
+.websiteInfo h2{
+    font-size: 35px;
+    color: #3e89a7;
+}
+
+.websiteInfo p {
+    margin-bottom: 30px;
+    font-size: 10;
+    color: #051d29;
+}
+
+/* Button */
+
+.zoom-div{
+    transition: transform .3s; /* Animation */
+    padding: 10px 0 10px 5px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.zoom-div:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.btn{
+    background: #3e89a7;
+    border-radius: 15px;
+    padding: 12px 12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: #457475;
+}
+
+.gitHubBtn-div{
+    width: 102px;
+    float: right;
+    margin-right: 90px;
+    border-radius: 15px;
+    transition: transform .3s; /* Animation */
+}
+.gitHubBtn-div:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.gitHubBtn{
+    border: solid black 1px;
+    border-radius: 15px;
+    background: white;
+    color: black;
+}
+
+.gitHubBtn, .fa-github{
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    float: right;
+}
+
+.gitHubBtn:hover{
+    background: #457475;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+
+

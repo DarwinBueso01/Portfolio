@@ -1,0 +1,59 @@
+/* General */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Footer Styling */
+
+.footerContainer{
+    background: #092b3b;
+    color: #3e89a7;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+    padding: 50px 50px 50px 50px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+li{
+    margin-top: 5px;
+    color: white;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    color: #3e89a7;
+}
+
+.socialMedias{
+    border-right: solid 1px;
+    border-right-color: #3e89a7;
+    width: 380px;
+}
+
+.contactInfo{
+    border-right: solid 1px;
+    border-right-color: #3e89a7;
+    width: 455px;  
+}
+
+.copyright{
+    padding-bottom: 10px;
+    color: white;
+}

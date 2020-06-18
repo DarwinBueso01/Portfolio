@@ -1,0 +1,55 @@
+/* General */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+/* Navbar */
+
+
+#navbar{
+    background: linear-gradient(to right, #75c9ca, #457475, #092b3b, #051d29);
+    color: white;
+    overflow: auto;
+}
+
+#navbar .logo{
+    color: white;
+    font-size: 30px;
+    margin-top: 18px;
+    float: left;
+    font-family: 'Parisienne', cursive;
+}
+
+#navbar li{
+    display: inline-block;
+    float: right;
+    margin: 20px;
+}
+
+
+#navbar li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;   
+}
+
+.container1{
+    margin: auto;
+    max-width: 1700px;
+    overflow: auto;
+    font-size: 18px;
+}
+
+#navbar ul li a:hover{
+    background: #457475;
+    cursor: pointer;
+    padding: 10px 10px;
+    opacity: 0.8;
+    border-radius: 10px; 
+}
