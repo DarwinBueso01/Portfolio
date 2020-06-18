@@ -1,6 +1,6 @@
 .headerImage{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2852&q=80") no-repeat center center/cover;
-    height: 750px;
+    height: 600px;
     width: 100%;
     color: white;
     text-align: start;
@@ -10,17 +10,17 @@
 
 .headerImage h1{
     color: #83e0e2;
-    font-size: 45px;
+    font-size: 43px;
 }
 
 .headerImage p{
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 15px
 }
 
 .headerInfo{
     float: right;
-    padding: 70px 30px 30px 20px;
+    padding: 40px 30px 30px 20px;
     /* border-left: solid #092b3b; */
     margin-top: 200px;
     margin-left: 250px;

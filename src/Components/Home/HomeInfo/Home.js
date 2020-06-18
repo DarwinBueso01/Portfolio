@@ -28,7 +28,7 @@ class HomeInfo extends React.Component {
                     </div>
                 </section>
                 <section className="pictureSection">
-                    <div>
+                    <div className="experience">
                         <h2>Experienced in ...</h2>
                     </div>
                     <section className="photoGallery">

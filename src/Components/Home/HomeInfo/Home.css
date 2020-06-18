@@ -17,18 +17,18 @@
 .myPhoto{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../img/IMG_8512.JPG') no-repeat;
     background-size: cover;
-    width: 555px;
+    width: 750px;
     height: 350px;
-    margin: 50px 50px 50px 160px;
+    margin: 50px 20px 50px 120px;
     border: solid #092b3b 10px; 
 }
 
 .myInfo{
-    width: 1000px;
+    width: 900px;
     text-align: start;
-    padding: 100px 100px 100px 100px;
+    padding: 80px 80px 80px 80px;
     border: solid #457475 5px;
-    margin: 150px 150px 150px 150px;
+    margin: 150px 100px 160px 130px;
     border-radius: 30px;
 }
 
@@ -38,13 +38,13 @@
 }
 
 h1{
-    font-size: 50px;
+    font-size: 35px;
     color: #457475;
     padding-bottom: 10px;
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .icons-container{
@@ -52,13 +52,13 @@ p{
     flex-direction: row;
     justify-content: space-around;
     height: 500px;
-    padding: 150px 100px 100px 100px;
+    padding: 150px 80px 100px 80px;
     color: white;
     background: linear-gradient(to right, #457475, #092b3b, #051d29);
 }
 
 .icons-container div{
-    width: 400px;
+    width: 300px;
 }
 
 .icons-container i{
@@ -77,12 +77,16 @@ p{
     padding: 80px 80px 10px 40px;
 }
 
+.pictureSection .experience{
+  margin-left: 55px;
+}
+
 /* Photo Gallery Design */
 
 .photoGallery{
     display: flex;
     justify-content: center;
-    padding: 100px 100px 100px 150px;
+    padding: 100px 100px 30px 150px;
   }
   
   .effect-container {
@@ -91,9 +95,9 @@ p{
   }
   
   .photos{
-    width: 400px;
-    height: 300px;
-    margin: 20px;
+    width: 350px;
+    height: 250px;
+    margin: 50px;
     opacity: 1;
     display: block;
     transition: transform .2s; /* Animation */
@@ -122,7 +126,7 @@ p{
   
   .text {
     color: black;
-    font-size: 40px;
+    font-size: 35px;
     padding: 16px 10px;
     font-weight: bold;
   }
