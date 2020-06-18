@@ -18,7 +18,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
                     <div className="container">
-                        <form>
+                        <form netlify>
                             <label for="fname">First Name</label>
                             <input type="text" className="fname" name="firstname" placeholder="Your name.." required/>
 
