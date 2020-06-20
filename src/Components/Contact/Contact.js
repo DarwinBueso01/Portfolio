@@ -2,8 +2,36 @@ import React from "react";
 import "../Contact/Contact.css";
 
 
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+}
+
+
 class Contact extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { name: "", lastname: "", email: "", message: "" };
+      }
+       /* Here’s bit for posting the form submission */
+
+       handleSubmit = e => {
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", ...this.state })
+        })
+          .then(() => alert("Success!"))
+          .catch(error => alert(error));
+
+        e.preventDefault();
+      };
+
+      handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
     render() {
+        const { name, lastname, email, message } = this.state;
         return(
             <React.Fragment>
                 <div id="contact">
@@ -18,20 +46,22 @@ class Contact extends React.Component {
                         </div>
                     </div>
                     <div className="container">
-                        <form netlify>
-                            <label for="fname">First Name</label>
-                            <input type="text" className="fname" name="firstname" placeholder="Your name.." required/>
+                        <form onSubmit={this.handleSubmit} name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                            <input type="hidden" name="contact" value="contact"></input>
 
-                            <label for="lname">Last Name</label>
-                            <input type="text" className="lname" name="lastname" placeholder="Your last name.." required/>
+                            <label htmlFor="fname">First Name</label>
+                            <input type="text" className="fname" name="firstname" placeholder="Your name.." value={name} onChange={this.handleChange} required />
 
-                            <label for="email">Email</label>
-                            <input type="text" className="email" name="email" placeholder="Your email.." required/>
+                            <label htmlFor="lname">Last Name</label>
+                            <input type="text" className="lname" name="lastname" placeholder="Your last name.." value={lastname} onChange={this.handleChange}  required />
 
-                            <label for="subject">Message</label>
-                            <textarea className="subject" name="subject" cols="30" rows="10" placeholder="Write something.."></textarea>
+                            <label htmlFor="mail">Email</label>
+                            <input type="text" className="email" name="email" placeholder="Your email.." value={email} onChange={this.handleChange} required />
 
-                            <input type="submit" value="Submit" />
+                            <label htmlFor="subject">Message</label>
+                            <textarea className="subject" name="subject" cols="30" rows="10" placeholder="Write something.." id="subject" value={message} onChange={this.handleChange}></textarea>
+
+                            <input type="submit" value="Submit" name="submit" />
                         </form>
                     </div>
             </section>
