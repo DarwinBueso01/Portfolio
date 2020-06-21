@@ -10,9 +10,6 @@ const encode = (data) => {
 
 
 class Contact extends React.Component {
-    constructor(props) {
-        super(props);
-      }
        /* Here’s bit for posting the form submission */
 
        handleSubmit = e => {
