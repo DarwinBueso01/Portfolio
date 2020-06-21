@@ -12,7 +12,6 @@ const encode = (data) => {
 class Contact extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { email: "", message: "" };
       }
        /* Here’s bit for posting the form submission */
 
@@ -31,7 +30,6 @@ class Contact extends React.Component {
       handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-        const { email, message } = this.state;
         return(
             <React.Fragment>
                 <div id="contact">
@@ -56,10 +54,10 @@ class Contact extends React.Component {
                             <input type="text" className="lname" id="lname" name="lastname" placeholder="Your last name.." onChange={this.handleChange}  required />
 
                             <label htmlFor="mail">Email</label>
-                            <input type="text" className="email" name="email" placeholder="Your email.." value={email} onChange={this.handleChange} required />
+                            <input type="text" className="email" name="email" placeholder="Your email.." onChange={this.handleChange} required />
 
                             <label htmlFor="subject">Message</label>
-                            <textarea className="subject" name="subject" cols="30" rows="10" placeholder="Write something.." id="subject" value={message} onChange={this.handleChange}></textarea>
+                            <textarea className="subject" name="subject" cols="30" rows="10" placeholder="Write something.." id="subject" onChange={this.handleChange}></textarea>
 
                             <input type="submit" value="Submit" name="submit" />
                         </form>
