@@ -50,10 +50,10 @@ class Contact extends React.Component {
                             <input type="hidden" name="contact" value="contact"></input>
 
                             <label htmlFor="fname">First Name</label>
-                            <input type="text" className="fname" id="fname" name="firstname" placeholder="Your name.." value={name} onChange={this.handleChange} required />
+                            <input type="text" className="fname" id="fname" name="firstname" placeholder="Your name.." onChange={this.handleChange} required />
 
                             <label htmlFor="lname">Last Name</label>
-                            <input type="text" className="lname" id="lname" name="lastname" placeholder="Your last name.." value={name} onChange={this.handleChange}  required />
+                            <input type="text" className="lname" id="lname" name="lastname" placeholder="Your last name.." onChange={this.handleChange}  required />
 
                             <label htmlFor="mail">Email</label>
                             <input type="text" className="email" name="email" placeholder="Your email.." value={email} onChange={this.handleChange} required />
