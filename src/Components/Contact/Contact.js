@@ -12,7 +12,7 @@ const encode = (data) => {
 class Contact extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { name: "", lastname: "", email: "", message: "" };
+        this.state = { name: "", email: "", message: "" };
       }
        /* Here’s bit for posting the form submission */
 
@@ -31,7 +31,7 @@ class Contact extends React.Component {
       handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-        const { name, lastname, email, message } = this.state;
+        const { name, email, message } = this.state;
         return(
             <React.Fragment>
                 <div id="contact">
@@ -50,10 +50,10 @@ class Contact extends React.Component {
                             <input type="hidden" name="contact" value="contact"></input>
 
                             <label htmlFor="fname">First Name</label>
-                            <input type="text" className="fname" name="firstname" placeholder="Your name.." value={name} onChange={this.handleChange} required />
+                            <input type="text" className="fname" id="fname" name="firstname" placeholder="Your name.." value={name} onChange={this.handleChange} required />
 
                             <label htmlFor="lname">Last Name</label>
-                            <input type="text" className="lname" name="lastname" placeholder="Your last name.." value={lastname} onChange={this.handleChange}  required />
+                            <input type="text" className="lname" id="lname" name="lastname" placeholder="Your last name.." value={name} onChange={this.handleChange}  required />
 
                             <label htmlFor="mail">Email</label>
                             <input type="text" className="email" name="email" placeholder="Your email.." value={email} onChange={this.handleChange} required />
