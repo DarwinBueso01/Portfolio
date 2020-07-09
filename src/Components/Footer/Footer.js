@@ -8,7 +8,7 @@ class Footer extends React.Component{
                 <section className="footerContainer">
                     <footer className="footer">
                         <div className="socialMedias">
-                            <h2>Social Medias</h2>
+                            <h2 className="footerH2">Social Medias</h2>
                             <ul>
                                 <li><a href="https://www.linkedin.com/in/darwin-bueso-galdamez-6a73661a9/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
                                 <li><a href="https://www.facebook.com/profile.php?id=100009827972169" target="_blank" rel="noopener noreferrer">Facebook</a></li>
@@ -17,7 +17,7 @@ class Footer extends React.Component{
                             </ul>
                         </div>
                         <div className="contactInfo">
-                            <h2>Contact Information</h2>
+                            <h2 className="footerH2">Contact Information</h2>
                             <ul>
                                 <li><a href="mailto:darwingaldamez5@gmail.com">darwingaldamez5@gmail.com</a></li>
                                 <li><a href="sms:980-208-7723">(980) 208-7723</a></li>
@@ -25,7 +25,7 @@ class Footer extends React.Component{
                             </ul>
                         </div>
                         <div className="links">
-                            <h2>Important Links</h2>
+                            <h2 className="footerH2">Important Links</h2>
                             <ul>
                                 <li><a href="https://github.com/DarwinBueso01" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                                 <li><a href="#home">Home</a></li>

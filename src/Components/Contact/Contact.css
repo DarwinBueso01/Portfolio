@@ -58,7 +58,7 @@ input[type=text], textarea {
   }
   
   input[type=submit] {
-    background-color: #457475;
+    background-color: #498c8d;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -81,5 +81,38 @@ input[type=text], textarea {
 
   form{
       padding: 20px;
+  }
+
+  /* Media Queries Start Here */
+  @media screen and (min-width: 320px) and (max-width: 600px){
+    .contactForm{
+      display: flex;
+      flex-direction: column;
+      padding: 50px 50px 50px 45px;
+    }
+    .formColor{
+      width: 300px;
+      height: 400px;
+      padding: 50px 50px;
+    }
+    .formColor h2{
+      font-size: 25px;
+    }
+    .formColor h3{
+      font-size: 15px;
+    }
+    .container {
+      width: 300px;
+      padding: 20px;
+      margin-top: 5px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    .contactForm{
+      display: flex;
+      flex-direction: row;
+      padding: 50px 50px 50px 50px;
+    }
   }
   
