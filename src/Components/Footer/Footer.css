@@ -96,3 +96,16 @@ li a:hover{
         padding-right: 25px;
     } 
 }
+
+@media screen and (min-width: 1500px){
+    .socialMedias{
+        width: 380px;
+        margin-right: 80px;
+    }
+    
+    .contactInfo{
+        width: 455px; 
+        margin-right: 80px;
+        padding-right: 25px;
+    } 
+}

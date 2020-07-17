@@ -226,4 +226,18 @@ p{
   }
 }
 
+@media screen and (min-width: 1500px){
+  .myPhoto{
+    width: 555px;
+    height: 380px;
+    margin: 50px 50px 50px 160px;
+  }
+  .myInfo{
+    width: 800px;
+    padding: 100px 100px 100px 100px;
+    margin: 150px 150px 150px 150px;
+  }
+}
+
+
 

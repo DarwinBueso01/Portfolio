@@ -8,8 +8,6 @@
 }
 
 /* Navbar */
-
-
 #navbar{
     background: linear-gradient(to right, #75c9ca, #457475, #092b3b, #051d29);
     color: white;
@@ -23,6 +21,7 @@
     float: left;
     font-family: 'Parisienne', cursive;
 }
+
 
 #navbar li{
     display: inline-block;
@@ -51,4 +50,15 @@
     padding: 10px 10px;
     opacity: 0.8;
     border-radius: 10px; 
+}
+
+/* Media Queries Start Here */
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+    #navbar .logo{
+        font-size: 35px;
+    } 
+    .container1{
+        font-size: 13px;
+    }
 }

@@ -70,5 +70,22 @@
     }
 }
 
+@media screen and (min-width: 1500px){
+    .headerImage{
+        height: 750px;
+        width: 100%;
+        clip-path: circle(100% at 60% -85%);
+    }
+    .headerInfo{
+        float: right;
+        padding: 70px 30px 30px 20px;
+        /* border-left: solid #092b3b; */
+        margin-top: 200px;
+        margin-left: 250px;
+        height: 35%;
+        width: 750px;
+    }
+}
+
 
 

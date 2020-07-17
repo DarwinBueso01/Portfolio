@@ -59,12 +59,17 @@
 
 /* Laptop design section */
 
+.websiteSectionTitle{
+    font-size: 40px;
+}
+
 .website-flex-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     /* border-bottom: solid #457475 1px; */
 }
+
 
 .laptop-frame {
     width: 100%;
@@ -94,13 +99,14 @@
 
 .websiteInfo{
     text-align: start;
-    padding-top: 20%;
+    padding-top: 12%;
     width: 350px;
 }
 
 .websiteInfo h2{
     font-size: 35px;
     color: #3e89a7;
+    margin-bottom: 20px;
 }
 
 .websiteInfo p {
@@ -177,6 +183,14 @@
     border: 0;
     cursor: pointer;
 }
+
+.SignBtn{
+    color: black;
+}
+.SignBtn:hover{
+    cursor: default;
+}
+
 
 /* Media Queries Start Here */
 

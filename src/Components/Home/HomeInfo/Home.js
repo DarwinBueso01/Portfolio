@@ -5,7 +5,7 @@ class HomeInfo extends React.Component {
     render(){
         return(
             <React.Fragment>
-                <section className="mySection">
+                <section id="aboutMe" className="mySection">
                     <div className="myPhoto"></div>
                     <div className="myInfo">
                         <i className="fa fa-bookmark" aria-hidden="true"></i>
@@ -13,7 +13,7 @@ class HomeInfo extends React.Component {
                         <p>I am a 18 years old Junior web developer with a demonstrated history of working in the tech industry. I was born and raised in Honduras and currently living in Charlotte NC. My passion for coding started when I was in the Road to Hire after school program, where I started creating basic html and css practice websites. Currently I am attending the traditional Road to Hire six month program, and looking forward to keep growing in the tech field.</p>
                     </div>
                 </section>
-                <section className="icons-container">
+                <section id="skills" className="icons-container">
                     <div>
                         <i className="fa fa-paint-brush"></i>
                         <p>Design thinking process, wireframing, sitemaping</p>

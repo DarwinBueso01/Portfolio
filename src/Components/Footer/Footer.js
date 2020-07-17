@@ -28,9 +28,10 @@ class Footer extends React.Component{
                             <h2 className="footerH2">Important Links</h2>
                             <ul>
                                 <li><a href="https://github.com/DarwinBueso01" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                                <li><a href="#home">Home</a></li>
+                                <li><a href="#aboutMe">About Me</a></li>
                                 <li><a href="#portfolio">Portfolio</a></li>
                                 <li><a href="#contact">Contact</a></li>
+                                <li><a href="#navbar">Scroll Up</a></li>
                             </ul>
                         </div>
                     </footer>

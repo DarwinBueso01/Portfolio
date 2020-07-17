@@ -6,7 +6,9 @@
             "description": "Created basic app in the Road to Hire Program, and it helps with organizing daily tasks",
             "url": "https://darwin-todo-list.netlify.app/",
             "gitHub": "https://github.com/DarwinBueso01/to-do-list-app",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
         },
         {
             "id": 2,
@@ -14,7 +16,9 @@
             "description": "Designed and developed cards that will give you a list of friends that you can decided to delete whenever you want",
             "url": "https://darwin-friends-list.netlify.app/",
             "gitHub": "https://github.com/DarwinBueso01/FriendsList",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
         },
         {
             "id": 3,
@@ -22,7 +26,9 @@
             "description": "Fun tic tac toe game with dynamic color changing functionality. You can play this with your friends and family",
             "url": "https://darwin-tictactoe.netlify.app/",
             "gitHub": "https://github.com/DarwinBueso01/TicTacToe",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
         },
         {
             "id": 4,
@@ -30,55 +36,79 @@
             "description": "Modern  guessing game with speech recognition feature",
             "url": "https://speechrecognition-game.netlify.app/",
             "gitHub": "https://github.com/DarwinBueso01/GuessingGame",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
         },
         {
             "id": 5,
+            "title": "Ecommerce Website",
+            "description": "React Based website focused on selling dolphin products",
+            "url": "https://darwin-ecommerce.netlify.app/",
+            "gitHub": "https://github.com/DarwinBueso01/eCommerceWebsite",
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
+        },
+        {
+            "id": 6,
             "title": "Animated Navbar",
             "description": "Navbar specifically designed and developed for animation websites as well as for responsive apps",
             "url": "https://animated-navbar.netlify.app/",
             "gitHub": "https://github.com/DarwinBueso01/AnimatedNavbar",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Hotel App",
             "description": "Very informative and organized hotel app with pictures and a variety of icon designs.",
             "url": "https://darwin-hotel-app.netlify.app/index.html",
             "gitHub": "https://github.com/DarwinBueso01/HotelApp",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "GitHub User Locator",
             "description": "Used GitHub API to create an app that will help you locate users based on the database information that I have included in my code.",
             "url": "https://darwin-react-github-cards.netlify.app",
             "gitHub": "https://github.com/DarwinBueso01/react-github-cards",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
         },
         {
-            "id": 8,
+            "id": 9,
             "title": "Gateway Website",
             "description": "The very first application that I created when I started the Road to Hire Code Academy. It includes information about the country, Honduras",
             "url": "https://gatewaywebsite.netlify.app",
             "gitHub": "https://github.com/DarwinBueso01/gatewayProject",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
         },
         {
-            "id": 9,
+            "id": 10,
             "title": "Pokemon Inquirer",
             "description": "This is a very interesting node application, where you are able to train a pokemon of your choice. If you would like to see it in action, clone my GitHub Repo and run it in Terminal.",
             "url": "https://cdn.macpaw.com/uploads/images/Screen%20Shot%202018-10-17%20at%2018.14.23.png",
             "gitHub": "https://github.com/DarwinBueso01/PokemonInquirer",
-            "visitButton": "Visit Repo -->"
+            "visitButton": "Visit Repo -->",
+            "className": "SignBtn",
+            "zoomClassName": "zoom-div-2"
         },
         {
-            "id": 10,
+            "id": 11,
             "title": "Weather App",
             "description": "Used a third party API to create this innovative app where you are able to get the current weather of a city of your choice",
             "url": "https://bot-hub.com/media/bot_icon/Anyweather/Anyweather_logo.jpg",
             "gitHub": "https://github.com/DarwinBueso01/gatewayProject",
-            "visitButton": "Visit Website -->"
+            "visitButton": "Visit Repo -->",
+            "className": "SignBtn",
+            "zoomClassName": "zoom-div-2"
         }
     ]
 }
