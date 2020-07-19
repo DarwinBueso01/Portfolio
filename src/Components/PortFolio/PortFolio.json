@@ -92,6 +92,16 @@
         },
         {
             "id": 10,
+            "title": "Counter App",
+            "description": "Fun and counter app, with reset button that helps you start counting over again.",
+            "url": "https://darwin-counter-app.netlify.app",
+            "gitHub": "https://github.com/DarwinBueso01/counterApp",
+            "visitButton": "Visit Website",
+            "className": "btn",
+            "zoomClassName": "zoom-div"
+        },
+        {
+            "id": 11,
             "title": "Pokemon Inquirer",
             "description": "This is a very interesting node application, where you are able to train a pokemon of your choice. If you would like to see it in action, clone my GitHub Repo and run it in Terminal.",
             "url": "https://cdn.macpaw.com/uploads/images/Screen%20Shot%202018-10-17%20at%2018.14.23.png",
@@ -101,7 +111,7 @@
             "zoomClassName": "zoom-div-2"
         },
         {
-            "id": 11,
+            "id": 12,
             "title": "Weather App",
             "description": "Used a third party API to create this innovative app where you are able to get the current weather of a city of your choice",
             "url": "https://bot-hub.com/media/bot_icon/Anyweather/Anyweather_logo.jpg",
