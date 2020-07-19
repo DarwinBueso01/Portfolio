@@ -1,6 +1,5 @@
 import React from "react";
 import "../PortFolio/PortFolio.css";
-import WebsiteInfo from "../PortFolio/PortFolio.json";
 
 
 class PortFolio extends React.Component {
